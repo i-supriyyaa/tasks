@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Voyages - Travel the World</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container header-container">
+      <h1 class="logo"><i class="fa-solid fa-map-location-dot"></i> Wanderlust Voyages</h1>
+
+      <!-- nav toggle button for mobile & tablet view-->
+      <button id="navToggle" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-navigation">
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn" href="#book">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Explore the World with <br /><span id="wv">Wanderlust Voyages</span></h2>
+      <p>Your journey of a lifetime starts here.<br />Discover, Explore, and Experience like never before!</p>
+      <a href="#packages" class="btn"><u>View Packages</u></a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">🌟Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-plane-departure fa-3x"></i>
+          <h3>Worldwide Destinations</h3>
+          <p>Explore top destinations across the globe with expert guidance and curated experiences.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Luxury Stays</h3>
+          <p>Enjoy handpicked luxury accommodations to make your trip comfortable and memorable.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-route fa-3x"></i>
+          <h3>Customized Packages</h3>
+          <p>Tailor-made itineraries based on your preferences and travel style.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-headset fa-3x"></i>
+          <h3>24/7 Support</h3>
+          <p>Round-the-clock assistance for a hassle-free and smooth journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="destinations">
+    <div class="container">
+      <h2 class="section-title">📍Top Destinations</h2>
+      <div class="destinations-grid">
+        <div class="destination-card">
+          <img src="./assets/paris.jpg" alt="Paris">
+          <h3>Paris</h3>
+          <p>The city of love and lights awaits you!</p>
+        </div>
+        <div class="destination-card">
+          <img src="./assets/maldives.jpg" alt="Maldives">
+          <h3>Maldives</h3>
+          <p>Pristine beaches and turquoise waters for a perfect getaway.</p>
+        </div>
+        <div class="destination-card">
+          <img src="./assets/new-york.jpg" alt="New York">
+          <h3>New York</h3>
+          <p>The city that never sleeps, full of adventure and excitement.</p>
+        </div>
+        <div class="destination-card">
+          <img src="./assets/tokyo.jpg" alt="Tokyo">
+          <h3>Tokyo</h3>
+          <p>A fusion of tradition and modernity in Japan's vibrant capital.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="packages">
+    <div class="container">
+      <h2 class="section-title">🧳Our Travel Packages</h2>
+      <div class="packages-grid">
+        <div class="package-card">
+          <img src="./assets/adventure-trips.jpg" alt="Adventure">
+          <h3>Adventure Trips</h3>
+          <p>Thrilling experiences like trekking, scuba diving, and more.</p>
+        </div>
+        <div class="package-card">
+          <img src="./assets/luxury-gateways.jpg" alt="Luxury">
+          <h3>Luxury Getaways</h3>
+          <p>Relax in style with our luxury travel packages.</p>
+        </div>
+        <div class="package-card">
+          <img src="./assets/cultural-tour.webp" alt="Cultural">
+          <h3>Cultural Tours</h3>
+          <p>Immerse yourself in rich traditions and cultural experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">✍️What Our Travelers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>"Wanderlust Voyages made our trip unforgettable. Amazing service!"</p>
+          <h4>- Sarah & John</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"Highly recommended for anyone looking for hassle-free luxury trips."</p>
+          <h4>- Michael B.</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"Excellent support and breathtaking destinations. Will travel again!"</p>
+          <h4>- Priya K.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="booking">
+    <div class="container">
+      <h2 class="section-title">✈️Book Your Dream Trip Now!</h2>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label for="name">Full Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+          <input type="text" id="name" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address&nbsp;&nbsp;&nbsp;: </label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="destination">Destination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+          <select id="destination">
+            <option value="paris">Paris</option>
+            <option value="maldives">Maldives</option>
+            <option value="newyork">New York</option>
+            <option value="tokyo">Tokyo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Travel Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+          <input type="date" id="date">
+        </div>
+        <button type="submit" class="btn">Submit Booking</button>
+      </form>
+      <div id="bookingMsg">
+        Thankyou! Your booking request has been received. We will contact you shortly.
+      </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">📬 Contact Us</h2>
+      <p class="contact-info">Have questions or want a
+        custom itinerary? Reach out and we'll get back to you within 24 hours.</p>
+      <p class="contact-info">📧 Email: <a href="mailto:wanderlustvoyages@email.com">wanderlustvoyages@email.com</a></p>
+      <p class="contact-info">📞 Phone: <a href="tel:+001234567890">+00-1234567890</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <h2><i class="fa-solid fa-map-location-dot"></i> Wanderlust Voyages</h2><br />
+        <hr /><br />
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div><br />
+      <p>&copy; 2025 Wanderlust Voyages. All Rights Reserved.</p><br />
+      <hr />
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
