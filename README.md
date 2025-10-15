@@ -24,7 +24,7 @@ Showcases skills, projects, resume, and contact information in a visually appeal
 
 -----------------------------------------
 
-# [2] ✈️ Wanderlust Voyages
+# [2] ✈️ Wanderlust Voyages - Landing Page
 
 Wanderlust Voyages is a travel agency website template designed to showcase top destinations, curated travel packages, and an easy booking system. Built with HTML, CSS, and Font Awesome, it provides a stylish, responsive experience for travel enthusiasts.
 
